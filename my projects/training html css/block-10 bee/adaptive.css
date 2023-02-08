@@ -1,0 +1,108 @@
+@media only screen and (max-width: 1320px) {
+    .header {
+        width: 100%;
+    }
+    .wrapper {
+        width: 100%;
+    }
+    .footer {
+        width: 100%;
+    }
+    .block {
+        width: 19%;
+        height: 279px;
+        background-color: #EBEBEB;
+        margin: 35px 0 35px;
+    }
+    .cont div:nth-child(1) {
+        margin-left: 57px;
+    }
+    .cont div:nth-child(4) {
+        margin-right: 57px;
+    }
+    .active {
+        font-size: 1.6vw;
+        padding: 1em;
+    }
+    .header a:not(:first-child) {
+        font-size: 1.6vw;
+        padding: 1em;
+    }
+    .header div {
+        height: auto;
+    }
+    .block * {
+        text-align: center;
+        font-size: 1.13vw;
+    }
+}
+@media only screen and (max-width: 1235px) {
+    .cont {
+        justify-content: center;
+    }
+    .block {
+        width: 36%;
+        height: auto;
+        background-color: #EBEBEB;
+        margin: 2% 2%;
+    }
+    .cont div:nth-child(1) {
+        margin-left: 2%;
+    }
+    .cont div:nth-child(4) {
+        margin-right: 2%;
+    }
+    .block * {
+        text-align: center;
+        font-size: 1.7vw;
+    }
+    .block h2 {
+        font-size: 2vw;
+    }
+/* ///--/////////////Редактирование WROPPER/// */
+    .wrapper {
+        flex-direction: column;
+    }
+    main {
+        padding: 2em;
+    }
+    .bee-1 {
+        box-shadow: 2px 1px 4px grey;
+        border-radius: 2px;
+        float: right;
+        width: 36%;
+    }
+    .bee-2 {
+        box-shadow: 2px 1px 4px grey;
+        border-radius: 2px;
+        float: left;
+        width: 36%;
+        margin-right: 21px;
+    }
+    .bee-4 {
+        box-shadow: 2px 1px 4px grey;
+        width: 45%;
+        margin-left: 28%;
+    }
+    .bee-3 {
+        display: none;
+    }
+    .bee-5 {
+        box-shadow: 2px 1px 4px grey;
+        border-radius: 2px;
+        float: left;
+        width: 36%;
+        margin-right: 21px;
+    }
+    .wrapper h1, h2 {
+        font-size: 2.1vw;
+    }
+    .footer-p {
+        width: 100%;
+        text-align: center;
+        color: #ebebeb;
+    }
+    .wrapper p {
+        font-size: 1.5vw;
+    }
+}

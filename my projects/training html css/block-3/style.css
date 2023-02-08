@@ -1,0 +1,44 @@
+.bl1-2-3 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 269px;
+    /* background-color: beige; */
+    align-items: flex-end;
+}
+.bl1 {
+    background-color: brown;
+    width: 12%;
+    height: 86%;
+    margin-left: 1%;
+    position: relative;
+}
+.bl2 {
+    background-color: rgb(230, 170, 61);
+    width: 40%;
+    height: 30%;
+}
+.bl3 {
+    background-color: rgb(78, 218, 183);
+    width: 12%;
+    height: 86%;
+    display: flex;
+    justify-content: unset;
+    align-items: end;
+    margin-right: 1%;
+}
+.bl1-1 {
+    width: 32%;
+    height: 29%;
+    background-color: blueviolet;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+.bl3-3 {
+    width: 33%;
+    height: 27%;
+    background-color: coral;
+    margin-left: 3%;
+    margin-bottom: 2%;
+}

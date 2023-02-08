@@ -1,0 +1,134 @@
+@media only screen and (max-width: 1400px) {
+    .containers {
+        width: 100%;
+    }
+    .container-1 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background-color: aquamarine;
+    }
+    .block-1 {
+        height: 400px;
+        width: 300px;
+    }
+    .block-2-1 {
+        width: 89%;
+        background-color: rgb(220, 226, 131);
+        height: 50px;
+    }
+    .container-2 {
+        height: 204px;
+    }
+    .block-2-1 {
+        width: 89%;
+        background-color: rgb(220, 226, 131);
+        height: 131px;
+    }
+    .block-3 {
+        width: 313px;
+        margin: 20px;
+    }
+    /* .container-3 > :last-child {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin: 20px;
+    }
+    .container-3 > :first-child {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    } */
+    .container-3 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 1131px) {
+    .containers {
+        width: 100%;
+    }
+    .container-2 {
+        height: 327px;
+    }
+    .block-2-1 {
+        width: 94%;
+        height: 267px;
+    }
+}
+
+@media only screen and (max-width: 976px) {
+    .containers {
+        width: 100%;
+    }
+    .container-2 {
+        height: 399px;
+    }
+    .block-2-1 {
+        width: 94%;
+        height: 336px;
+    }
+    
+}
+
+@media only screen and (max-width: 720px) {
+    .containers {
+        width: 100%;
+    }
+    .block-3 {
+        width: 616px;
+        margin: 0 20px;
+        
+    }
+    .container-3 > :last-child {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .container-3 > :first-child {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 436px) {
+    .containers {
+        width: 100%;
+        min-width: 350px;
+    }
+    .container-1 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background-color: aquamarine;
+    }
+    .block-1 {
+        height: 400px;
+    }
+    .container-3 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .block-3 {
+        margin: 0 20px;
+    }
+    .container-3 > :last-child {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .container-3 > :first-child {
+        margin-top: 20px;
+    }
+}
+

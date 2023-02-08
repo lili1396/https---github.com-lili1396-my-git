@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+.block {
+    margin: 50px auto;
+    width: 500px;
+    height: 500px;
+    background-color: #C4CD14;
+    border-radius: 381px;
+    position: relative;
+}
+.circle-1, .circle-2, .circle-3, .circle-4 {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 100%;
+    position: absolute;
+}
+.circle-1 {
+    top: 115px;
+    left: 86px;
+}
+.circle-2 {
+    top: 114px;
+    left: 303px;
+}
+.circle-3 {
+    top: 246px;
+    left: 203px;
+    width: 70px;
+    height: 70px;
+    z-index: 2;
+}
+.circle-4 {
+    top: 323px;
+    left: 161px;
+    width: 150px;
+    height: 128px;
+}
+.kvadrat-5 {
+    width: 187px;
+    height: 187px;
+    background-color: #c4cd14;
+    border-radius: 381px;
+    position: absolute;
+    top: 236px;
+    left: 137px;
+}
