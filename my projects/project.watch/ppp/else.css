@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+  
+ol, ul {
+    list-style: none;
+}
+  
+
+body {
+    text-align: center;
+}
+img {
+    margin-bottom: 67px;
+}
+h2 {
+    margin-bottom: 17px;
+    font-size: 32px;
+    line-height: 29px;
+}
+p {
+    font-size: 32px;
+    line-height: 50px;
+    width: 510px;
+    height: 196px;
+    text-align: center;
+    margin: auto;
+}

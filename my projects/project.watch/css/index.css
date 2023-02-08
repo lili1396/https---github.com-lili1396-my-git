@@ -123,4 +123,31 @@ body {
     font-size: 32px;
     line-height: 30px;
     text-align: center;
+    margin-bottom: 85px;
 }
+.img-sw12 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 417px;
+    height: 630px;
+    background-color: #F8F8F8;
+    margin-bottom: 67px;
+    text-align: center;
+    margin: auto;
+}
+.abzsw12 {
+    font-size: 32px;
+    line-height: 30px;
+    margin-bottom: 17px;
+    text-align: center;
+    font-weight: 400;
+}
+.paragraf {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 30px;
+    text-align: center;
+    margin: auto;
+}
+

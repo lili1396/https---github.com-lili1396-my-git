@@ -1,0 +1,21 @@
+.block {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 850px;
+}
+.block-1 {
+    background-color: aquamarine;
+    width: 130px;
+    height: 124px;
+}
+.block-2 {
+    background-color:brown;
+    width: 311px;
+    height: 124px;
+}
+.block-3 {
+    background-color: yellow;
+    width: 130px;
+    height: 124px;
+}
